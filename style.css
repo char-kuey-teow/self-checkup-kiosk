@@ -22,7 +22,7 @@ h4 {
 
 h5 {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     color: #5c5c5c;
 }
 
@@ -42,19 +42,33 @@ button {
 }
 
 .search-bar {
-    width: 40%;
+    width: 35%;
     height: 40px;
     margin: auto;
     display: flex;
-    cursor: text;
+    border: none;
     text-align: center;
-    justify-content: center;
-    background-color: #dfdbdb !important;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f2efef !important;
 }
 
-.search-bar h5{
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #f2efef;
     text-align: center;
-    padding-bottom: 3px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-right: 10px;
 }
 
 .content {
@@ -64,15 +78,18 @@ button {
     line-height: 3;
 }
 
-.arrow {
+.start button {
     margin: auto;
-    width: 40%;
     display: flex;
+    width: 80%;
     cursor: pointer;
     text-align: center;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
+.start h4 {
+    padding-right: 10px;
+}
 
 

@@ -42,7 +42,7 @@ button {
 }
 
 .search-bar {
-    width: 35%;
+    width: 280px;
     height: 40px;
     margin: auto;
     display: flex;
@@ -56,12 +56,14 @@ button {
 .search-bar input {
     border: none;
     outline: none;
-    flex: 1;
-    padding: 8px;
+    padding: 8px 14px;
     font-size: 16px;
-    border-radius: 25px;
     background-color: #f2efef;
-    text-align: center;
+    text-align: left;
+}
+
+.search-bar input:focus {
+    text-align: left; 
 }
 
 .search-bar button {
@@ -92,4 +94,58 @@ button {
     padding-right: 10px;
 }
 
+.profile {
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    padding: 40px;
+}
 
+.profile h3 {
+    color: #DB4444;
+    font-weight: 600;
+    padding: 8px 0px;
+}
+
+.profile button {
+    margin: 10px;
+    float: right;
+}
+
+.save-button {
+    background-color: #4BD4F0;
+    color: white;
+    border-radius: 3px;
+    padding: 14px 30px;
+    text-align: center;
+}
+
+.cancel-button {
+    padding-top: 13px;
+}
+
+.profile-bar p {
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+.profile-bar input {
+    width: 350px;
+    height: 25px;
+    margin-right: 200px;
+    border: none;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f2efef !important;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.profile-bar-group {
+    display: flex;
+    margin: 20px 0px;
+}

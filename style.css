@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;    
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #5c5c5c;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 0px 0px 15px;
+}
+
+.header-bar {
+    width: 100%;
+    background-color: #17879B;
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 40%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    cursor: text;
+    text-align: center;
+    justify-content: center;
+    background-color: #dfdbdb !important;
+}
+
+.search-bar h5{
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    line-height: 3;
+}
+
+.arrow {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center
+}
+
+
+

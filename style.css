@@ -191,7 +191,111 @@ button {
     margin-top: 20px;
 }
 
-.save-button {
+.next-button {
+    background-color: #4BD4F0;
+    color: white;
+    border-radius: 3px;
+    padding: 14px 30px;
+    text-align: center;
+    width: 100%;
+}
+.blood-sugar {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.blood-sugar h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bsugar-check-group {
+    margin-bottom: 20px;
+}
+
+.bsinstruction p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.bsinstruction-1 p {
+    font-weight: 600;
+}
+
+.bsinstruction-2 p {
+    font-weight: 600;
+}
+
+.bsinstruction-3 p {
+    font-weight: 600;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.bsnext-button {
+    background-color: #4BD4F0;
+    color: white;
+    border-radius: 3px;
+    padding: 14px 30px;
+    text-align: center;
+    width: 100%;
+}
+.blood-oxygen {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.blood-oxygen h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.boxy-check-group {
+    margin-bottom: 20px;
+}
+
+.boxyinstruction p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.boxyinstruction-1 p {
+    font-weight: 600;
+}
+
+.boxyinstruction-2 p {
+    font-weight: 600;
+}
+
+.boxyimage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.boxynext-button {
     background-color: #4BD4F0;
     color: white;
     border-radius: 3px;

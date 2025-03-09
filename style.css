@@ -293,6 +293,7 @@ button {
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
+    padding-left: 140px;
 }
 
 .boxynext-button {
@@ -343,6 +344,7 @@ button {
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
+    padding-left: 180px;
 }
 
 .btempnext-button {

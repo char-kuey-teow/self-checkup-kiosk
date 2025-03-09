@@ -303,3 +303,53 @@ button {
     text-align: center;
     width: 100%;
 }
+.blood-temp {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.blood-temp h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btemp-check-group {
+    margin-bottom: 20px;
+}
+
+.btempinstruction p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.btempinstruction-1 p {
+    font-weight: 600;
+}
+
+.btempinstruction-2 p {
+    font-weight: 600;
+}
+
+.btempimage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btempnext-button {
+    background-color: #4BD4F0;
+    color: white;
+    border-radius: 3px;
+    padding: 14px 30px;
+    text-align: center;
+    width: 100%;
+}

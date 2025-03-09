@@ -238,11 +238,12 @@ button {
     font-weight: 600;
 }
 
-.image img {
+.bsimage img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
+    padding-left: 130px;
 }
 
 .bsnext-button {
@@ -289,11 +290,11 @@ button {
 }
 
 .boxyimage img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
-    padding-left: 140px;
+    padding-left: 120px;
 }
 
 .boxynext-button {

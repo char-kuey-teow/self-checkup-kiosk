@@ -149,6 +149,16 @@ button {
     display: flex;
     margin: 20px 0px;
 }
+
+.view-button {
+    background-color: #4BD4F0;
+    color: white;
+    border-radius: 3px;
+    padding: 14px 30px;
+    text-align: center;
+    width: auto;
+}
+
 .blood-pressure {
     background-color: white;
     border-radius: 8px;
